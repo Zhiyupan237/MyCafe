@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mycafe.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_personalinformation"
+        android:name="com.example.mycafe.ui.PersonalInformation.PersonalInformationFragment"
+        android:label="PersonalInformation"
+        tools:layout="@layout/fragment_personal_information" />
+    <fragment
+        android:id="@+id/nav_deposit"
+        android:name="com.example.mycafe.ui.Deposit.DepositFragment"
+        android:label="Deposit"
+        tools:layout="@layout/activity_deposit_fragment" />
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.mycafe.ui.slideshow.SlideshowFragment"
+        android:label="Event"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_googlemap"
+        android:name="com.example.mycafe.ui.gallery.GalleryFragment"
+        android:label="GoogleMap"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shoppingcart"
+        android:name="com.example.mycafe.ui.ShoppingCart.ShoppingCartFragment"
+        android:label="ShoppingCart"
+        tools:layout="@layout/fragment_shoppingcart" />
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="com.example.mycafe.ui.record.RecordFragment"
+        android:label="Record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/action_about"
+        android:name="com.example.mycafe.About"
+        android:label="About"
+        tools:layout="@layout/activity_about" />
+</navigation>

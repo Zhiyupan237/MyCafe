@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_white_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_personalinformation"
+            android:icon="@drawable/baseline_settings_accessibility_white_24"
+            android:title="PersonalInformation" />
+        <item
+            android:id="@+id/nav_deposit"
+            android:icon="@drawable/baseline_attach_money_white_24"
+            android:title="Deposit" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/baseline_celebration_white_24"
+            android:title="Event" />
+        <item
+            android:id="@+id/nav_googlemap"
+            android:icon="@drawable/baseline_map_white_24"
+            android:title="GoogleMap" />
+        <item
+            android:id="@+id/nav_shoppingcart"
+            android:icon="@drawable/baseline_shopping_cart_white_24"
+            android:title="ShoppingCart" />
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@drawable/baseline_manage_search_white_24"
+            android:title="Record" />
+    </group>
+</menu>

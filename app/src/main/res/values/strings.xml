@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MyCafe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="button_ok" />
+    <string name="button_clear" />
+    <string name="button_cancel" />
+    <string name="username">email</string>
+    <string name="password">password</string>
+    <string name="dialog_fire_missiles">Fire missiles?</string>
+    <string name="fire">Fire</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">OK</string>
+    <string name="dialog_message">Automatic brightness</string>
+    <string name="dialog_title">Brightness</string>
+    <string name="fire_a_missile">Missiles</string>
+    <string name="brightness_dialog">Brightness Dialog</string>
+    <string name="pick_color">Pick a color</string>
+    <string name="button_listDialog">List Dialog</string>
+    <string name="planets">Planets</string>
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="Planets">planets</string>
+    <string name="planet">planet</string>
+    <string name="signin">Ok</string>
+    <string name="submit">Submit</string>
+    <string name="reminder">Reminder name</string>
+    <string name="done">Done</string>
+    <string name="clear">clear</string>
+    <string name="planetttt">Kiiroitori</string>
+
+    <string-array name="colors_array">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>Kiiroitori</item>
+        <item>Duck</item>
+        <item>Chicken</item>
+        <item>Mentori</item>
+        <item>Bird</item>
+        <item>Shark</item>
+        <item>Blahaj</item>
+    </string-array>
+
+</resources>
